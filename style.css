@@ -7,6 +7,7 @@
     background-image: url('hero_2.jpg');
     background-size: cover;
     background-position: center;
+    width: 100%;
     height: 500px;
     color: white;
 }
@@ -77,13 +78,6 @@ a:hover {
 .button {
     text-align: center;
 }
-
-body {
-    margin-left: 50px;
-
-
-}
-
 .container1 img {
     background-color: rgb(255, 111, 0);
     overflow: hidden;
