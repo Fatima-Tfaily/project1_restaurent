@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.part1{
+    background-image: url('hero_2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+}   
+ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu{
+    padding-top: 20px;
+    margin-bottom: 70px
+}
+.contact{
+    margin-left: 70px;
+    width: 100px;
+    height: 40px;
+    background-color: #FF7415;
+    border: 0px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.h{
+    margin-left: 320px;
+}
+.menu li{
+    margin-right: 20px;
+}
+.c{
+    margin-left: 120px;
+}
+.title{
+    margin-left: 70px;
+}
+a:hover{
+    color: #FF7415;
+}
+h1{
+    text-align: center;
+    font-size: 40;
+    margin-bottom: 10px;
+}
+p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.get{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+.button{
+    text-align: center;
+}
