@@ -1,23 +1,27 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.part1{
+
+.part1 {
     background-image: url('hero_2.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
     color: white;
-}   
-ul{
+}
+
+ul {
     display: flex;
     list-style-type: none;
 }
-.menu{
+
+.menu {
     padding-top: 20px;
     margin-bottom: 70px
 }
-.contact{
+
+.contact {
     margin-left: 70px;
     width: 100px;
     height: 40px;
@@ -25,41 +29,190 @@ ul{
     border: 0px;
     color: white;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-.h{
+
+.h {
     margin-left: 320px;
 }
-.menu li{
+
+.menu li {
     margin-right: 20px;
 }
-.c{
+
+.c {
     margin-left: 120px;
 }
-.title{
+
+.title {
     margin-left: 70px;
 }
-a:hover{
+
+a:hover {
     color: #FF7415;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 40;
     margin-bottom: 10px;
 }
-p{
+
+p {
     text-align: center;
     margin-bottom: 20px;
 }
-.get{
+
+.get {
     background: none;
     border: 2px solid white;
     color: white;
     width: 100px;
     height: 35px;
 }
-.button{
+
+.button {
     text-align: center;
+}
+
+body {
+    margin-left: 50px;
+
+
+}
+
+.container1 img {
+    background-color: rgb(255, 111, 0);
+    overflow: hidden;
+    margin-right: 150px;
+    height: 100px;
+    width: 100px;
+    background-size: 200px;
+    background-position: center;
+    border-radius: 50%;
+
+}
+
+
+
+.container1 {
+    padding-left: 10px;
+    direction: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+
+}
+
+.container1 svg {
+    margin-right: 140px;
+}
+
+.meat h5 {
+    margin-right: 40px;
+}
+
+h5 {
+    color: orange;
+    letter-spacing: 3px;
+    margin-right: 180px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+
+
+}
+
+
+
+.top {
+    display: flex;
+
+}
+
+.under {
+    display: flex;
+}
+
+.container2 {
+    display: block;
+    padding-left: 60px;
+    margin-top: -80px;
+}
+
+.container2 p {
+    color: gray;
+    margin-top: -10px;
+    font-size: 16px;
+    margin-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container3 p,
+h1 {
+    text-align: center;
+    /* Center the content horizontally */
+    max-width: 580px;
+    /* Limit the width of the container */
+    margin: 0 auto;
+    /* Center the container itself */
+
+}
+
+.container3 {
+    margin-top: 100px;
+}
+
+.container3 p {
+    color: grey;
+}
+
+.container3 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+
+.image1 {
+    width: 220px;
+    height: 280px;
+}
+
+.image2 {
+    height: 140px;
+    width: 200px;
+    margin-bottom: 160px;
+    margin-left: 20px;
+}
+
+.image3 {
+    height: 120px;
+    width: 200px;
+    margin-top: 160px;
+    margin-left: -200px;
+    margin-right: 20px;
+
+
+}
+
+.image4 {
+    width: 220px;
+    height: 280px;
+    margin-right: 60px;
+}
+
+.image-container {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 40px;
+
 }
